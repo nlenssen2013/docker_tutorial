@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  weather:
+    image: weather:v1
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
